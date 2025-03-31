@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Operacao" parent="Theme.Material3.DayNight.NoActionBar">
+       <item name="colorPrimary">@color/apema</item>
+        <item name="android:windowBackground">@color/apema</item>
+    </style>
+
+    <style name="Theme.Operacao" parent="Base.Theme.Operacao" />
+</resources>
