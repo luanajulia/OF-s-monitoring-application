@@ -10,15 +10,15 @@ import java.sql.SQLException;
 public class conexao {
     String classes = "net.sourceforge.jtds.jdbc.Driver";
 
-    protected static  String ip = "192.168.1.196";
+    protected static  String ip = "";
 
     protected static String port = "1433";
 
     protected static String db = "comunidade";
 
-    protected static String un = "sa";
+    protected static String un = "";
 
-    protected static String password = "123123";
+    protected static String password = "";
 
     public Connection CONN(){
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
