@@ -27,7 +27,7 @@
 
 ## 📚 Demonstration
 
-- Pictures of how it turned out in `imagens`
+- Pictures of how it turned out in `images`
 
 
 ## 👨‍💻 Expert
