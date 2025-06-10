@@ -201,7 +201,7 @@ public class MainActivity extends AppCompatActivity {
     }
     @SuppressLint("NewApi")
     public Connection concClass(){
-        String ip = "192.168.1.196", port = "1433", database = "comunidade", un = "sa", password = "123123";
+        String ip = " ", port = " ", database = " ", un = " ", password = " ";
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
         Connection con = null;
@@ -217,7 +217,7 @@ public class MainActivity extends AppCompatActivity {
     }
     @SuppressLint("NewApis")
     public Connection conx(){
-        String ip = "192.168.1.16", port = "1433", database = "SIGATST5", un = "SIGA", password = "SIGA";
+        String ip = " ", port = "1433", database = " ", un = " ", password = " ";
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
         Connection conn = null;
